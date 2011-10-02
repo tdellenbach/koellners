@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<baulandkatalog>
+  <bauland>
+    <adresse><strasse>test1</strasse><plz>8500</plz><ort>buchberg</ort></adresse>
+    <flaeche>12334</flaeche>
+    <preis>56789</preis>
+    <beschreibung>lorem ipsum lorem ipsum</beschreibung>
+    <pfad>buchberg/test.pdf</pfad>
+  </bauland>
+  <bauland>
+    <adresse><strasse>test2</strasse><plz>8600</plz><ort>buchberg</ort></adresse>
+    <flaeche>654</flaeche>
+    <preis>60832</preis>
+    <beschreibung>alskdjflk j</beschreibung>
+    <pfad>buchberg/Kopie von test.pdf</pfad>
+  </bauland>
+  <bauland>
+    <adresse><strasse>test3</strasse><plz>8700</plz><ort>hallau</ort></adresse>
+    <flaeche>64567</flaeche>
+    <preis>67852</preis>
+    <beschreibung>al klj asd </beschreibung>
+    <pfad>hallau/test.pdf</pfad>
+  </bauland>
+  <bauland>
+    <adresse><strasse>test4</strasse><plz>8800</plz><ort>neunkirch</ort></adresse>
+    <flaeche>6453</flaeche>
+    <preis>60764</preis>
+    <beschreibung>d;lsjdfll asjd </beschreibung>
+    <pfad>neunkirch/test.pdf</pfad>
+  </bauland>
+  <bauland>
+    <adresse><strasse>test5</strasse><plz>8900</plz><ort>neunkirch</ort></adresse>
+    <flaeche>9870</flaeche>
+    <preis>977764</preis>
+    <beschreibung>af ja sdfj ls</beschreibung>
+    <pfad>neunkirch/Kopie von test.pdf</pfad>
+  </bauland>
+</baulandkatalog>

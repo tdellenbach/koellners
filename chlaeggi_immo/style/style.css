@@ -1,0 +1,207 @@
+  body {
+    color: black;
+    background-color: white;
+    font-size: 100.01%;
+    font-family: Helvetica,Arial,sans-serif;
+    min-width: 50em; /* Mindestbreite verhindert Umbruch und Anzeigefehler in modernen Browsern */
+  }
+
+  h1 {
+    font-size: 1.5em;
+    padding: 0.3em;
+    text-align: center;
+    background-color: #fed;
+    border: 2px ridge silver;
+  }
+
+  #Navigation {
+    width: 10em;
+    position: relative;
+    font-size: 0.83em;
+    float: left;
+//    clear: both;
+    margin-top: 2em;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    margin-bottom: 1.2em;
+    padding: 0;
+    border: 1px dashed silver;
+  }
+  
+  ul.menu, ul ul {
+    padding:0;
+    list-style-type:none;
+    overflow:hidden;
+    background:#f8f8f8;
+    text-align:left;
+    color:#fff;
+    border:1px solid #606;
+    }
+  
+  ul.menu {
+    margin:0 auto;
+  }
+  
+  ul.menu table {
+    border-collapse:collapse;
+//    padding:0;
+//    margin:0;
+    font-size:1em;
+  }
+  
+  ul.menu ul {
+    margin-left:1em;
+  }
+  
+  ul.menu li {
+    text-indent:0.5em;
+  }
+  
+  ul.menu li.drop {
+//    margin-bottom:-2px;
+  }
+  
+  ul.menu li a, 
+  ul.menu li a:visited {
+    display:block;
+//    width:14em;
+    height:2em;
+    line-height:1.9em;
+    text-decoration:none;
+    color:#606;
+  }
+  
+  ul.menu li a.last, 
+  ul.menu li a.last:visited {
+    display:block;
+  }
+  ul.menu li ul {display:none;}
+  
+  ul.menu li:hover a, 
+  ul.menu li a:hover {border:0; color:#00c; font-weight:bold;}
+  
+  ul.menu li:hover ul, 
+  ul.menu li a:hover ul {
+    display:block;
+    margin-top:-1px;
+    background:#def;
+    border:1px solid #000;
+  }
+  
+  ul.menu li:hover ul li a, 
+  ul.menu li a:hover ul li a {
+//    height:2em;
+    background:#def;
+    color:#00c;
+    font-weight:normal;
+  }
+  
+  ul.menu li:hover ul li:hover a, 
+  ul.menu li a:hover ul li a:hover {background:#00c; color:#fff;}
+
+  
+  #Inhalt {
+//    height: 75%;
+    position: relative;
+    margin-top: 2em;
+    margin-left: 14em;
+    margin-right: 1.2em;
+    margin-bottom: 1.2em;
+    padding: 0;
+    border:1px solid #000;
+  }
+  * html div#Inhalt {
+    height: 1em;  /* Workaround gegen den 3-Pixel-Bug des Internet Explorer bis Version 6 */
+  }
+  #Inhalt h2 {
+    font-size: 1.2em;
+    margin: 0.2em 0;
+  }
+  #Inhalt p {
+    font-size: 1em;
+  }
+  ul#Inhalt li {
+    list-style: disc;
+    margin-left: 2em;
+    padding: 0.5em;
+  }
+
+  #Kopfzeile {
+//    width: 100%;
+//    height: 15%;
+    position: relative;
+    overflow: visible;
+    clear: both;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+//    color: #04C7F3;
+    background-color: #04F318;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #F30430;
+  }
+  html>body #Kopfzeile {  /* nur fuer moderne Browser! */
+//    position: fixed;
+  }
+  #Kopfzeile img {
+    float: left;
+    border: none;
+  }
+  #Kopfzeile p {
+    color: #FFFFFF;
+  }
+
+  
+//  #Fusszeile {
+//    position: relative;
+//    clear: both;
+//    bottom: 0px;
+//    left: 0px;
+//    right: 0px;
+//    color: #FFFFFF;
+//    background-color: #3333CC;
+//    border-top-style: solid;
+//    border-top-width: 5px;
+//    border-top-color: #FD7E23;
+//  }
+//  #Fusszeile a {
+//    color: #FFFFFF;
+//    border: none;
+//  }
+//  #Fusszeile p{
+//    color: #FFFFFF;
+//  }
+
+#Fusszeile {clear:both;
+//width:1025px;
+height:25px;
+//background:url(sub_bar.gif) no-repeat;
+line-height:25px; font-size:11px; text-align:right; padding:0 0 20px 0; font-family:verdana, arial, sans-serif;
+  border-style: solid;
+  border-top-width: 5px;
+  border-top-color: #FD7E23;
+}
+#Fusszeile p {float:left; padding:0 0 0 15px; margin:0; font-size:9px; color:#444;} 
+#Fusszeile ul {padding:0; margin:0; list-style:none;}
+#Fusszeile ul li {float:right; margin-right:10px;}
+#Fusszeile ul li a {font-size:9px; color:#048; text-decoration:underline;}
+
+
+  div#Info {
+    font-size: 0.9em;
+    float: right;
+    width: 90%;
+    margin: 0 0 1.1em;
+    padding: 0;
+    background-color: #eee;
+    border: 1px dashed silver;
+  }
+  div#Info h2 {
+    font-size: 1.33em;
+    margin: 0.2em 0.5em;
+  }
+  div#Info p {
+    font-size: 1em;
+    margin: 0.5em;
+  }
